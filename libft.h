@@ -6,7 +6,7 @@
 /*   By: khafni <khafni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/15 12:58:09 by aabounak          #+#    #+#             */
-/*   Updated: 2021/05/28 17:21:48 by khafni           ###   ########.fr       */
+/*   Updated: 2021/07/05 15:56:03 by aabounak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,7 @@ int				ft_tolower(int c);
 void			ft_exit(char *msg);
 char			*ft_strchr(const char *s, int c);
 char			*ft_strrchr(const char *s, int c);
+int				ft_strcmp(const char *s1, const char *s2);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
 size_t			ft_strlcpy(char *d, const char *s, size_t n);
 size_t			ft_strlcat(char *dst, const char *src, size_t size);
